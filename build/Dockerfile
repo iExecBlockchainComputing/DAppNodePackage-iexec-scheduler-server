@@ -1,5 +1,7 @@
-FROM alpine
+FROM iexechub/iexec-core:63106cb
 
-WORKDIR /usr/src/app
+COPY ./entrypoint.sh /
 
-CMD [ "echo", "happy buidl" ]
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT /entrypoint.sh

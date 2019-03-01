@@ -13,6 +13,22 @@
       "IEXEC",
       "SCHEDULER",
       "SERVER"
+    ],
+    "environment": [
+      "MONGO_HOST",
+      "IEXEC_CORE_WALLET_PATH",
+      "IEXEC_PRIVATE_CHAIN_ADDRESS",
+      "IEXEC_PUBLIC_CHAIN_ADDRESS",
+      "REVEAL_TIMEOUT_PERIOD",
+      "IEXEC_ASK_REPLICATE_PERIOD",
+      "IEXEC_HUB_ADDRESS",
+      "POOL_ADDRESS",
+      "IEXEC_START_BLOCK_NUMBER",
+      "IEXEC_RESULT_REPOSITORY_IP",
+      "IEXEC_RESULT_REPOSITORY_PORT",
+      "IEXEC_CHAIN_ID",
+      "IEXEC_CORE_WALLET_JSON",
+      "IEXCE_CORE_WALLET_PASSWORD"
     ]
   },
   "author": "francois branciard",
