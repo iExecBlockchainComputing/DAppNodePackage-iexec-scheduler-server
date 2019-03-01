@@ -1,0 +1,21 @@
+{
+  "name": "dappnodepackage-iexec-scheduler-server.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Dappnode package for iexec scheduler server",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "keywords": [
+      "IEXEC",
+      "SCHEDULER",
+      "SERVER"
+    ]
+  },
+  "author": "francois branciard",
+  "license": "",
+  "dependencies": {}
+}
