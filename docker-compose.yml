@@ -17,6 +17,6 @@ services:
             - IEXEC_RESULT_REPOSITORY_PORT=18090
             - IEXEC_CHAIN_ID=42
             - IEXEC_CORE_WALLET_JSON=
-            - IEXCE_CORE_WALLET_PASSWORD=whatever
+            - IEXCE_CORE_WALLET_PASSWORD=
         ports:
             - 18090:18090
