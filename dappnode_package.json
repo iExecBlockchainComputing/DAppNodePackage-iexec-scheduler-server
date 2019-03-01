@@ -14,6 +14,9 @@
       "SCHEDULER",
       "SERVER"
     ],
+    "ports": [
+      "18090:18090"
+    ],
     "environment": [
       "MONGO_HOST",
       "IEXEC_CORE_WALLET_PATH",
@@ -32,6 +35,6 @@
     ]
   },
   "author": "francois branciard",
-  "license": "",
+  "license": "GPL-3.0",
   "dependencies": {}
 }
