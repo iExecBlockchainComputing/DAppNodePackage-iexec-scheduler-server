@@ -5,9 +5,9 @@
   "avatar": "",
   "type": "service",
   "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
+    "path": "dappnodepackage-iexec-scheduler-server.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmVr5ArgNPLtswJr2JwdXXcPbwTswWjcKgNgQC7521AjLy",
+    "size": 93557622,
     "restart": "always",
     "keywords": [
       "IEXEC",

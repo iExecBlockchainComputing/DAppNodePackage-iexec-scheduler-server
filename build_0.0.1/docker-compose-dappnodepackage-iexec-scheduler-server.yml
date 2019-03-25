@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+    dappnodepackage-iexec-scheduler-server.public.dappnode.eth:
+        image: 'dappnodepackage-iexec-scheduler-server.public.dappnode.eth:0.0.1'
+        build: ./build
+        environment:
+            - MONGO_HOST=dappnodepackage-iexec-scheduler-db.public.dappnode.eth
+            - IEXEC_CORE_WALLET_PATH=/encrypted-wallet.json
+            - IEXEC_PRIVATE_CHAIN_ADDRESS=https://rpckovan1w7wagudqhtw5khzsdtv.iex.ec
+            - IEXEC_PUBLIC_CHAIN_ADDRESS=https://kovan.infura.io/v3/8198a36e1be94bfaa8291dcb660c7dcc
+            - REVEAL_TIMEOUT_PERIOD=120000
+            - IEXEC_ASK_REPLICATE_PERIOD=30000
+            - IEXEC_HUB_ADDRESS=0x759b25b358b9f9c18812a69c0a9cf8b5a11c2e2d
+            - POOL_ADDRESS=
+            - IEXEC_START_BLOCK_NUMBER=10437239
+            - IEXEC_RESULT_REPOSITORY_IP=18.130.148.15
+            - IEXEC_RESULT_REPOSITORY_PORT=18090
+            - IEXEC_CHAIN_ID=42
+            - IEXEC_CORE_WALLET_JSON=
+            - IEXCE_CORE_WALLET_PASSWORD=
+        ports:
+            - 18090:18090

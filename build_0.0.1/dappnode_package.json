@@ -1,0 +1,40 @@
+{
+  "name": "dappnodepackage-iexec-scheduler-server.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Dappnode package for iexec scheduler server",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "dappnodepackage-iexec-scheduler-server.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmVr5ArgNPLtswJr2JwdXXcPbwTswWjcKgNgQC7521AjLy",
+    "size": 93557622,
+    "restart": "always",
+    "keywords": [
+      "IEXEC",
+      "SCHEDULER",
+      "SERVER"
+    ],
+    "ports": [
+      "18090:18090"
+    ],
+    "environment": [
+      "MONGO_HOST",
+      "IEXEC_CORE_WALLET_PATH",
+      "IEXEC_PRIVATE_CHAIN_ADDRESS",
+      "IEXEC_PUBLIC_CHAIN_ADDRESS",
+      "REVEAL_TIMEOUT_PERIOD",
+      "IEXEC_ASK_REPLICATE_PERIOD",
+      "IEXEC_HUB_ADDRESS",
+      "POOL_ADDRESS",
+      "IEXEC_START_BLOCK_NUMBER",
+      "IEXEC_RESULT_REPOSITORY_IP",
+      "IEXEC_RESULT_REPOSITORY_PORT",
+      "IEXEC_CHAIN_ID",
+      "IEXEC_CORE_WALLET_JSON",
+      "IEXCE_CORE_WALLET_PASSWORD"
+    ]
+  },
+  "author": "francois branciard",
+  "license": "GPL-3.0",
+  "dependencies": {}
+}
